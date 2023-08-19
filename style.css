@@ -9,6 +9,17 @@ body {
     height: 100vh;
 }
 
+.logo {
+    height: 30px;
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.cart-user {
+    margin-right: 10px;
+}
+
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/ef-hero-banner.jpeg");
     height: 80%;
@@ -91,7 +102,7 @@ body {
 }
 
 ul li {
-    padding: 5px;
+    padding: 7px;
     font-size: 10px;
     cursor: pointer;
 }
@@ -159,7 +170,7 @@ ul li {
     margin-top: 10px;
 }
 
-img {
+.img {
     height: 19px;
     width: 19px;
     padding: 5px;
@@ -216,3 +227,52 @@ img {
     font-size: 16px;
     color: white;
 }
+
+.content-margin {
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.button {
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid gray;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.card {
+    transition: 0.3s;
+    width: 100%;
+    overflow: hidden;
+}
+
+.card-font {
+    font-size: 15px;
+}
+
+.movie-price {
+    font-size: 20px;
+}
+
+.card-content {
+    display: flex;
+    gap: 50px;
+}
+.card-image{
+    width:100%;
+    height: 50%;
+    border-radius: 10px;
+}
+.bottomleft {
+    position: absolute;
+    bottom: 24px;
+  }

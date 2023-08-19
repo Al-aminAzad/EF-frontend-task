@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/ea-sports.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,14 +18,14 @@
 
         <!--Start header navbar -->
         <div class="headerBar">
-            <div>Logo</div>
+            <div><img class="logo" src="./images/ea-sports.png" alt="Avatar"></div>
             <ul class="list">
                 <li>Trending</li>
                 <li>Pre-orders</li>
                 <li>Upcoming</li>
                 <li>Support 24/7</li>
             </ul>
-            <ul class="list">
+            <ul class="list cart-user">
                 <li><i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i>
                 </li>
                 <li><i class="fa-regular fa-user fa-2x"></i>
@@ -68,15 +69,15 @@
                 </div>
                 <div class="avatar-container">
                     <div class="avatar">
-                        <img src="./images/steam.png" alt="Avatar">
+                        <img class="img" src="./images/steam.png" alt="Avatar">
                         <p class="margin-top-left">Steam</p>
                     </div>
                     <div class="avatar check">
-                        <img src="./images/ubisoft.png" alt="Avatar">
+                        <img class="img" src="./images/ubisoft.png" alt="Avatar">
                         <p class="margin-top-left">Steam</p>
                     </div>
                     <div class="avatar check">
-                        <img src="./images/ea-sports.png" alt="Avatar">
+                        <img class="img" src="./images/ea-sports.png" alt="Avatar">
                         <p class="margin-top-left">Steam</p>
                     </div>
 
@@ -86,15 +87,15 @@
                 </div>
                 <div class="avatar-container">
                     <div class="avatar">
-                        <img src="./images/microsoft.png" alt="Avatar">
+                        <img class="img" src="./images/microsoft.png" alt="Avatar">
                         <p class="margin-top-left">Steam</p>
                     </div>
                     <div class="avatar check">
-                        <img src="./images/letter-r.png" alt="Avatar">
+                        <img class="img" src="./images/letter-r.png" alt="Avatar">
                         <p class="margin-top-left">Steam</p>
                     </div>
                     <div class="avatar check">
-                        <img src="./images/microsoft.png" alt="Avatar">
+                        <img class="img" src="./images/microsoft.png" alt="Avatar">
                         <p class="margin-top-left">Steam</p>
                     </div>
 
@@ -104,11 +105,11 @@
                 </div>
                 <div class="avatar-container">
                     <div class="avatar">
-                        <img src="./images/microsoft.png" alt="Avatar">
+                        <img class="img" src="./images/microsoft.png" alt="Avatar">
                         <p class="margin-top-left">Steam</p>
                     </div>
                     <div class="avatar check">
-                        <img src="./images/epic.png" alt="Avatar">
+                        <img class="img" src="./images/epic.png" alt="Avatar">
                         <p class="margin-top-left">Steam</p>
                     </div>
                 </div>
@@ -118,25 +119,25 @@
                 </div>
                 <div class="avatar-container">
                     <div class="avatar">
-                        <img src="./images/ea-sports.png" alt="Avatar">
+                        <img class="img" src="./images/ea-sports.png" alt="Avatar">
                         <p class="margin-top-left">Stream</p>
                     </div>
                     <div class="avatar check">
-                        <img src="./images/gift-card.png" alt="Avatar">
+                        <img class="img" src="./images/gift-card.png" alt="Avatar">
                         <p class="margin-top-left">Stream</p>
                     </div>
                     <div class="avatar check">
-                        <img src="./images/ig-gift.png" alt="Avatar">
+                        <img class="img" src="./images/ig-gift.png" alt="Avatar">
                         <p class="margin-top-left">Stream</p>
                     </div>
-
-
-
-
                 </div>
             </div>
         </div>
         <!-- End child menu -->
+
+
+
+
 
         <!-- Start hero banner text -->
         <div class="hero-text">
@@ -151,8 +152,57 @@
         </div>
         <!-- End hero banner text -->
 
-        
+
     </div>
+    <!-- Start content -->
+    <div class="content-margin">
+        <div class='content'>
+            <h4>Trending</h4>
+            <button class="button">View all</button>
+        </div>
+        <div class="content">
+        
+
+                <!-- first card -->
+                <div class="card">
+                    <img src="./images/gotham.jpg" alt="Avatar" class="card-image">
+                    <div id="parallelogram" class="bottomleft">
+                        <p class="discount">-16%</p>
+                    </div>
+                    <div class="content">
+                        <h4 class="card-font">Gotham</h4>
+                        <p class="movie-price">12.34&#x20AC;</p>
+                    </div>
+                </div>
+                <!-- End first card -->
+                <!-- first card -->
+                <div class="card">
+                    <img src="./images/gotham-2.jpg" alt="Avatar" class="card-image">
+                    <div id="parallelogram" class="bottomleft">
+                        <p class="discount">-20%</p>
+                    </div>
+                    <div class="content">
+                        <h4 class="card-font">Gotham</h4>
+                        <p class="movie-price">12.34&#x20AC;</p>
+                    </div>
+                </div>
+                <!-- End first card -->
+                <!-- first card -->
+                <div class="card">
+                    <img src="./images/gotham.jpg" alt="Avatar" class="card-image"">
+                    <div id="parallelogram" class="bottomleft">
+                        <p class="discount">-25%</p>
+                    </div>
+                    <div class="content">
+                        <h4 class="card-font">Gotham</h4>
+                        <p class="movie-price">12.34&#x20AC;</p>
+                    </div>
+                </div>
+                <!-- End first card -->
+        </div>
+    </div>
+    <!-- End content -->
     <script src="./script.js"></script>
 </body>
+
 </html>
