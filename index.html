@@ -13,6 +13,9 @@
 
 <body>
     <div class="hero-image">
+
+
+        <!--Start header navbar -->
         <div class="headerBar">
             <div>Logo</div>
             <ul class="list">
@@ -28,18 +31,114 @@
                 </li>
             </ul>
         </div>
-        <div class="navbar" >
-            <ul class="list ulColor">
-                <li><i class="fa fa-desktop" aria-hidden="true"></i>&nbsp;PC&nbsp;<i class="fa fa-angle-down"
-                        aria-hidden="true"></i>
-                </li>
-                <li><i class="fa-brands fa-playstation"></i>&nbsp;Playstation&nbsp;<i class="fa fa-angle-down"
-                        aria-hidden="true"></i>
-                </li>
-                <li><i class="fa-brands fa-xbox"></i> &nbsp;Xbox&nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i></li>
-                <li><i class="fa-solid fa-gamepad"></i>&nbsp;Nintendo&nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i></li>
-            </ul>
+        <!-- End header navbar -->
+
+
+        <!-- Start second navbar -->
+        <div class="display-flex">
+            <div class="navbar">
+                <ul class="list ulColor">
+                    <li id="pc"><i class="fa fa-desktop" aria-hidden="true"></i>&nbsp;PC&nbsp;<i
+                            class="fa fa-angle-down" aria-hidden="true"></i>
+                    </li>
+                    <li id="playstation"><i class="fa-brands fa-playstation"></i>&nbsp;Playstation&nbsp;<i
+                            class="fa fa-angle-down" aria-hidden="true"></i>
+                    </li>
+                    <li id="xbox"><i class="fa-brands fa-xbox"></i> &nbsp;Xbox&nbsp;<i class="fa fa-angle-down"
+                            aria-hidden="true"></i></li>
+                    <li id="nintendo"><i class="fa-solid fa-gamepad"></i>&nbsp;Nintendo&nbsp;<i class="fa fa-angle-down"
+                            aria-hidden="true"></i></li>
+                </ul>
+            </div>
+            <div class="search-container">
+                <input type="text" id="search-input" class="round-input">
+                <i class="fas fa-search search-icon" id="search-icon"></i>
+            </div>
         </div>
+        <!-- End second navbar -->
+
+
+
+        <!-- Start child menu -->
+        <div id="childMenu" class="childMenu margin-top">
+            <div class="childItem">
+                <div class="childItem-header">
+                    <h5>Platforms</h5>
+                    <h5>view all</h5>
+                </div>
+                <div class="avatar-container">
+                    <div class="avatar">
+                        <img src="./images/steam.png" alt="Avatar">
+                        <p class="margin-top-left">Steam</p>
+                    </div>
+                    <div class="avatar check">
+                        <img src="./images/ubisoft.png" alt="Avatar">
+                        <p class="margin-top-left">Steam</p>
+                    </div>
+                    <div class="avatar check">
+                        <img src="./images/ea-sports.png" alt="Avatar">
+                        <p class="margin-top-left">Steam</p>
+                    </div>
+
+
+
+
+                </div>
+                <div class="avatar-container">
+                    <div class="avatar">
+                        <img src="./images/microsoft.png" alt="Avatar">
+                        <p class="margin-top-left">Steam</p>
+                    </div>
+                    <div class="avatar check">
+                        <img src="./images/letter-r.png" alt="Avatar">
+                        <p class="margin-top-left">Steam</p>
+                    </div>
+                    <div class="avatar check">
+                        <img src="./images/microsoft.png" alt="Avatar">
+                        <p class="margin-top-left">Steam</p>
+                    </div>
+
+
+
+
+                </div>
+                <div class="avatar-container">
+                    <div class="avatar">
+                        <img src="./images/microsoft.png" alt="Avatar">
+                        <p class="margin-top-left">Steam</p>
+                    </div>
+                    <div class="avatar check">
+                        <img src="./images/epic.png" alt="Avatar">
+                        <p class="margin-top-left">Steam</p>
+                    </div>
+                </div>
+                <div class="childItem-header margin-top">
+                    <h5>Prepaid card</h5>
+                    <h5>view all</h5>
+                </div>
+                <div class="avatar-container">
+                    <div class="avatar">
+                        <img src="./images/ea-sports.png" alt="Avatar">
+                        <p class="margin-top-left">Stream</p>
+                    </div>
+                    <div class="avatar check">
+                        <img src="./images/gift-card.png" alt="Avatar">
+                        <p class="margin-top-left">Stream</p>
+                    </div>
+                    <div class="avatar check">
+                        <img src="./images/ig-gift.png" alt="Avatar">
+                        <p class="margin-top-left">Stream</p>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+        <!-- End child menu -->
+
+        <!-- Start hero banner text -->
         <div class="hero-text">
             <div class="chip">In 15 days</div>
             <h1 class="title">Starfiled Digital Premium Edition + Early Access</h1>
@@ -50,9 +149,10 @@
                 <p class="price">74.89 &#x20AC;</p>
             </div>
         </div>
+        <!-- End hero banner text -->
 
+        
     </div>
     <script src="./script.js"></script>
 </body>
-
 </html>
