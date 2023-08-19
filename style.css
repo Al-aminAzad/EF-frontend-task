@@ -4,7 +4,8 @@
 }
 
 body {
-    background-color: #424242;
+    font-family: "Poppins", sans-serif;
+    background-color: #3B3B3B;
     height: 100vh;
 }
 
@@ -15,4 +16,54 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+.hero-text{
+        text-align: left;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-90%, -50%);
+        color: white;
+}
+.chip {
+    display: inline-block;
+    padding: 0 10px;
+    height: 20px;
+    font-size: 10px;
+    line-height: 22px;
+    border-radius: 5px;
+    background-color: #3B3B3B;
+    margin-bottom: 5px;
+  }
+.title{
+    font-size: 25px;
+}
+.container{
+    display: flex;
+    overflow:hidden;
+    margin-top: 10px;
+}
+#parallelogram {
+    width: 60px;
+    height: 20px;
+    margin: 0 0 0 -20px;
+    border-radius: 10px 5px;
+    -webkit-transform: skew(16deg);
+       -moz-transform: skew(16deg);
+         -o-transform: skew(16deg);
+    background: #cd0204;
+    overflow:hidden;
+    position:relative;
+}
+.discount {
+    padding-left: 25px;
+    padding-top: 3px;
+    transform: skew(-15deg);
+    font-size: 13px;
+}
+.price{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: -4px;
+    
 }
